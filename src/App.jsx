@@ -1,6 +1,6 @@
 import { useState } from "react";
 import StartGame from "./components/StartGame";
-import "./app.css";
+import "./App.css";
 import GamePlay from "./components/GamePlay";
 
 const App = () => {

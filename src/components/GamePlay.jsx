@@ -28,11 +28,11 @@ const GamePlay = () => {
     if (selectedNum === randomNumber) {
       setTimeout(() => {
         setScore((prevScore) => prevScore + randomNumber);
-      }, 100);
+      }, 300);
     } else {
       setTimeout(() => {
         setScore((prevScore) => prevScore - 2);
-      }, 100);
+      }, 300);
     }
 
     setSelectedNum(undefined);
