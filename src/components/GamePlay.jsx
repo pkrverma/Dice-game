@@ -86,7 +86,7 @@ const MainContainer = styled.main`
 
   .btns {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10px;

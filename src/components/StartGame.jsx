@@ -23,7 +23,7 @@ const Container = styled.div`
   display: flex;
   margin: 0 auto;
   align-items: center;
-  height: 100vh;
+  height: calc(100vh - 40px);
 
   .content {
     h1 {

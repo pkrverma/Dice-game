@@ -24,8 +24,9 @@ const RulesContainer = styled.div`
 background-color: #fbf1f1;
 padding: 20px;
 max-width: 800px;
-margin: 34px auto;
+margin: 34px auto 68px;
 border-radius: 10px;
+border: 1px solid #ccc;
   h2 {
     font-size: 18px;
   }
