@@ -1,12 +1,43 @@
-# React + Vite
+## 🎲 Dice Game – React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Description:**  
+A web-based Dice Game built using **React**, designed to replicate a simple scoring game where users select a number and roll a dice. The application reinforces key React concepts such as state management, props handling, and component-level styling, while offering a clean, interactive user interface.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [Website Link](https://dice-game-alpha-three.vercel.app/)
+📱 *Note: Not fully responsive yet; layout may break on smaller screens.*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+### ✅ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Number selection input before rolling
+- Dice roll animation and result display
+- Point-based scoring system
+- Win/loss feedback based on match result
+- Reset game functionality
+
+---
+
+### 🛠️ Tech Stack
+
+- **React** – Component-based architecture and state handling  
+- **styled-components** – Scoped, modular styling  
+- **JavaScript** – Game logic and interactivity
+
+---
+
+### 📘 Key Concepts Applied
+
+- `useState` hook for managing UI and game state  
+- `props` for component communication  
+- Modular component structure  
+- Focus on user interaction and feedback design
+
+---
+
+### 🎮 How to Play
+
+1. Select a number between 1–6  
+2. Click the dice to roll  
+3. If the selected number matches the roll → gain points  
+4. If not → lose 2 points 
